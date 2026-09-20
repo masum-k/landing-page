@@ -1,35 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-  font-family: "Roboto", sans-serif;
+body {
+    font-family: "Roboto", sans-serif;
 }
 
-ul{
+ul {
     display: flex;
     gap: 16px;
-    
+
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: #E5E7EB;
 }
 
-.header{
+/* Header and Hero Section */
+.header {
     padding: 0px 200px;
     background-color: #1F2937;
 }
 
-.navbar{
+.navbar {
     display: flex;
     flex-wrap: wrap;
     color: white;
@@ -37,26 +38,26 @@ a{
     padding-top: 10px;
 }
 
-.title{
+.title {
     font-size: 48px;
     color: white;
     font-weight: 900;
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 100px 0px;
 }
 
-.banner p{
+.banner p {
     font-size: 18px;
     color: #E5E7EB;
     margin: 10px 0px;
 }
 
-.banner button{
+.banner button {
     color: white;
     padding: 6px 12px;
     border: none;
@@ -65,5 +66,41 @@ a{
     font-weight: 900;
 }
 
+/* Information Section */
 
+.information {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.information-title {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    /* margin-right: 30px; */
+    border: #3882F6 2px solid;
+}
+
+.box-container{
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
 
