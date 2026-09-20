@@ -57,7 +57,7 @@ a {
     margin: 10px 0px;
 }
 
-.banner button {
+button {
     color: white;
     padding: 6px 12px;
     border: none;
@@ -115,3 +115,18 @@ a {
     text-align: end;
 }
 
+.call-to-action{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    width: 700px;
+    margin: 60px auto;
+    background-color: #3882F6;
+}
+
+.call-to-action button{
+    border: white 2px solid;
+}
