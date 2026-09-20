@@ -130,3 +130,10 @@ button {
 .call-to-action button{
     border: white 2px solid;
 }
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: #1F2937;
+}
