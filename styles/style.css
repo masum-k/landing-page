@@ -100,7 +100,18 @@ a {
     align-items: center;
 }
 
-.quote{
+.quote-container{
+    padding: 80px;
     background-color: #E5E7EB;
+}
+
+.quote{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.quote p{
+    margin-top: 20px;
+    text-align: end;
 }
 
